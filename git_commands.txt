@@ -1,0 +1,62 @@
+1- git init
+Initializes a new local Git repository
+
+2- git status
+It Displays the current repository status,modified or untracked files.
+
+3- git config user.name "Name"
+It sets the Git username for the current repository.
+
+4- git config user.email "email"
+Sets the Git email for the current repository
+
+5- git add index.html about.html
+Stages the specified HTML files
+
+6- git commit -m "Initial commit"
+Creates a commit containing staged changes.
+
+7- git log --oneline
+Displays a compact commit history
+
+8- git branch feature
+Creates a new branch named feature
+
+9- git switch feature
+Switches to the feature branch.
+
+10- git switch main
+Switches back to the main branch
+
+11- git merge feature
+Merges feature branch change into main
+
+12- git reset --soft HEAD~1
+Undoes the latest commit while preserving staged changes
+
+13- git remote add origin URL
+It connects the local repository to a remote GitHub repository
+
+14- git branch -M main
+Renames the current branch to main
+
+15- git push -u origin main
+Pushes the main branch to GitHub and sets upstream tracking.
+
+16- git push -u origin feature
+Pushes the feature branch to GitHub and sets upstream tracking
+
+17- git remote -v
+Displays configured remote repository URLs
+
+18- git diff
+Displays unstaged changes
+
+19- git config user.name
+Displays the configured Git username.
+
+20- git config user.email
+Displays the configured Git email
+
+21- git status --ignored
+Displays repository status, including ignored files
